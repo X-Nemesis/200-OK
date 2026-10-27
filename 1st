@@ -1,0 +1,50 @@
+A. Create a Jira Cloud Account & Explore the Dashboard
+Go to the Atlassian Jira sign-up page (atlassian.com/software/jira).
+
+Click Get it free.
+
+Sign up using your email address, Google account, or Microsoft account.
+
+Enter a site name for your workspace (e.g., yourcompany.atlassian.net) and click Agree and sign up.
+
+Follow the quick onboarding setup prompts (or click Skip).
+
+Explore the main dashboard layout:
+
+Top Bar: Search, notifications, help center, and global settings (gear icon).
+
+Left Navigation: Recent projects, filters, dashboards, and teams.
+
+Main Area: Recent work, assigned tasks, and quick activity feeds.
+
+B. Create a Company-Managed Scrum/Kanban Project
+Click Projects in the top navigation bar.
+
+Select Create project.
+
+Choose a project template: select either Scrum or Kanban.
+
+Click Use template.
+
+Choose Company-managed project as the project type.
+
+C. Configure Project Details
+Enter a Name for your project (e.g., Software Development).
+
+Verify or edit the generated Key (a short 2–10 letter prefix used for issue IDs, e.g., SD).
+
+Click Create project.
+
+To configure details further, click Project settings at the bottom of the left sidebar.
+
+In Details, set or edit:
+
+Project Description: Short summary of the project.
+
+Project Lead: The team member responsible for managing the project.
+
+Default Assignee: Person assigned to new issues automatically (e.g., Project Lead or Unassigned).
+
+Project Avatar/Icon: Custom image for visual identification.
+
+Click Save changes.
