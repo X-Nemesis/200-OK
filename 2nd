@@ -1,0 +1,27 @@
+A. Add Team Members
+Log in to your Jira account.
+
+Click the Settings icon (gear icon) in the top-right corner of the top navigation bar.
+
+Select User management.
+
+Click Invite users (or Create user).
+
+Enter the email address of the team member.
+
+Select the product access (such as Jira Software).
+
+Click Invite or Send invitation.
+
+B. Assign Roles
+Open the specific project where you need to assign roles.
+
+Click Project settings at the bottom of the left-hand sidebar.
+
+Click People (or Access).
+
+Click Add people to add someone to the project, or find an existing team member in the list.
+
+Select the appropriate project role (such as Administrator, Member, or Viewer).
+
+Click Save or Add to confirm the role assignment.
