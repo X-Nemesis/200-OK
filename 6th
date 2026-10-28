@@ -1,0 +1,50 @@
+Practical 6: Scrum Board & Sprint Management
+We’ll complete this practical in your existing Syllogix (SYL) Jira project. Follow each step in order.
+
+A. Create and configure a Scrum Board
+Step 1 — Create the board
+1. Open Jira and go to Boards (or View all boards).
+2. Click Create board.
+3. Select Create a Scrum board.
+4. Choose Board from an existing project.
+5. Enter the board name: SYL Scrum Board.
+6. Select your Syllogix project.
+7. Click Create board.
+
+Step 2 — Configure the board
+1. Open the new Scrum board.
+2. Go to Board settings.
+3. Open Columns.
+4. Check that the columns match your workflow:
+- To Do
+- In Progress
+- Done
+If your project has an In Review status, map it to an appropriate column too.
+
+B. Create and start a Sprint
+1. Open your Scrum board and select Backlog.
+2. Click Create sprint.
+3. Rename it Student Management Sprint 1.
+4. Add your existing student-management issues from the backlog. For example:
+   - SYL-2 — Create Student Registration Page
+   - Design Student Database — if you created it
+   - Your student-management Bug — if you created it
+5. Click Start sprint.
+6. Set the duration to 2 weeks.
+7. Enter the sprint goal: Complete the initial student registration and database work.
+8. Click Start to confirm.
+
+C. Complete the Sprint and generate the Sprint Report
+Step 1 — Complete the sprint
+1. Open Active sprints.
+2. Move the issues you completed to Done.
+3. Click Complete sprint.
+4. If Jira asks about unfinished issues, move them to the backlog or another sprint.
+5. Confirm completion.
+
+Step 2 — Generate the Sprint Report
+1. Open your Scrum board.
+2. Select Reports.
+3. Choose Sprint Report.
+4. Select Student Management Sprint 1.
+5. Review the completed and incomplete issues shown in the report.
