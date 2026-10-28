@@ -1,0 +1,51 @@
+Practical 7: Kanban Board Management
+We’ll complete this practical in Jira Cloud, step by step.
+A. Create a Company-managed Kanban Project
+1. Open Jira.
+2. Click Projects or Spaces in the top navigation.
+3. Select Create project or Create space.
+4. Choose the Kanban template under Software.
+5. Look for the project management type and select Company-managed.
+6. Enter these details:
+- Name: Student Management Kanban
+- Key: SMK (if Jira lets you edit the key)
+7. Click Create.
+
+Company-managed projects may require administrator permissions. If you don't see the Company-managed option, send me a screenshot before proceeding. 
+Atlassian Support+1
+
+B. Configure the Kanban Board
+1. Open your new Student Management Kanban project.
+2. Open the Kanban board.
+3. Click ••• next to the board name and select Board settings or Configure board.
+4. Open Columns.
+5. Configure the columns like this:
+Column	Purpose
+To Do	Work not started
+In Progress	Work currently being done
+In Review	Work being checked
+Done	Completed work
+
+6. Ensure each column has the appropriate status mapped to it.
+7. If available, set a work-in-progress (WIP) limit of 3 for the In Progress column.
+8. Return to the board.
+You can add, rename, and rearrange columns and map statuses in the board settings. 
+Atlassian Support
+
+C. Track issue progress and generate Control Chart
+Step 1: Create issues
+Create these three sample issues in your new project:
+- Create Student Registration Page — Story
+- Design Student Database — Task
+- Fix Registration Form Validation — Bug
+Step 2: Track progress
+1. Open your Kanban board.
+2. Move Create Student Registration Page from To Do to In Progress.
+3. Move Design Student Database to In Progress.
+4. Move the Bug to In Review, then to Done, as you work through it.
+5. Keep updating issues as their actual status changes.
+Step 3: Open the Control Chart
+1. Open your project’s Reports section.
+2. Select Control Chart.
+3. Adjust the date range and columns or filters if needed.
+4. Review the chart and its average cycle time.
