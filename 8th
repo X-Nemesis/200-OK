@@ -1,0 +1,56 @@
+Practical 8: JQL & Filters
+We’ll use your existing Syllogix project (key: SYL).
+A. Write basic JQL queries
+Step 1: Open JQL search
+1. Open Jira.
+2. Click Filters → Search work items (or Advanced work item search).
+3. Click JQL to switch to advanced search.
+4. Enter a query in the search box.
+5. Click Search or press Enter. 
+   Atlassian+1
+Step 2: Run these queries
+Run each query separately.
+
+1. Find issues by status
+project = SYL AND status = "To Do"
+
+
+Finds issues in the To Do status.
+
+2. Find issues by assignee
+project = SYL AND assignee = currentUser()
+
+
+Finds issues assigned to your account.
+
+3. Find issues by priority
+project = SYL AND priority = High
+
+
+Finds high-priority issues.
+
+4. Combine status and priority
+project = SYL AND status = "In Progress" AND priority = High
+
+
+Finds high-priority issues that are In Progress.
+
+These queries use Jira's standard JQL fields and operators. 
+Atlassian+1
+
+B. Create and save filters
+Create a saved filter for each query you want to reuse.
+1. Run this query:
+   project = SYL AND status = "To Do"
+2. Click Save as above the results.
+3. Enter the filter name: SYL - To Do Issues.
+4. Click Save.
+Repeat the same process for these two filters:
+Filter name	JQL query
+SYL - My Issues	project = SYL AND assignee = currentUser()
+SYL - High Priority	project = SYL AND priority = High
+
+View your saved filters
+1. Click Filters in Jira's navigation.
+2. Open View all filters or Manage filters.
+3. Find your saved filters in the list.
