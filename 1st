@@ -48,3 +48,46 @@ Default Assignee: Person assigned to new issues automatically (e.g., Project Lea
 Project Avatar/Icon: Custom image for visual identification.
 
 Click Save changes.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Practical 1: Jira — Create a Company-managed Scrum/Kanban Project and Configure Project Details
+Follow these steps in Jira Cloud's current interface. Do the steps in order.
+Part B. Create a Company-managed Scrum/Kanban Project
+Step 1: Open Jira
+1. Open your Jira website and log in.
+2. From the left sidebar, find Spaces or the project navigation option available in your account.
+3. Open Create space. In some layouts, this option may appear on the Spaces page.
+Step 2: Choose the project template
+1. Select Scrum or Kanban under the software templates.
+   - Choose Scrum for work planned in sprints.
+   - Choose Kanban for work tracked continuously on a board.
+2. Select the option to use the chosen template if Jira asks you to confirm it.
+Step 3: Select Company-managed
+1. Find the option for the project type.
+2. Select Company-managed space.
+3. Make sure you do not select Team-managed.
+This selection is important because the practical specifically requires a company-managed project.
+Step 4: Enter project details
+Fill in the fields shown on the screen.
+
+Example values you can use:
+Field	Value
+Name	Student Management
+Key	SM
+Description	Project to manage student-related tasks
+Project lead	Your account, if available
+
+1. Enter Student Management in the name field.
+2. If Jira allows you to edit the key, enter SM. Otherwise, keep the automatically generated key.
+3. Enter the description if the field is available.
+4. Keep yourself as the project lead if the option is available.
+Step 5: Create the project
+1. Click Create.
+2. Wait for Jira to finish creating the project.
+3. Open the newly created project.
+4. Confirm that its board is visible.
+Your company-managed Scrum or Kanban project is now created. 
+Atlassian Support+1
