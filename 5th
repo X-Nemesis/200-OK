@@ -1,0 +1,104 @@
+Practical 5: Workflow Customization in Jira
+Objective
+
+A. Design a custom workflow.
+B. Add transitions and conditions.
+C. Publish the workflow and associate it with your project.
+
+We will use your existing Syllogix (SYL) Kanban project and follow the current Jira Cloud layout.
+
+A workflow defines the statuses an issue passes through and the transitions users can use to move it between statuses.
+A. Design a custom workflow
+Step 1: Open Workflow settings
+1. Click the ⚙️ Settings icon at the top-right of Jira.
+2. Select Work items.
+3. Under Work items, open Workflows.
+4. Click Add workflow.
+5. Select the option to create a new workflow, if Jira asks.
+6. Enter:
+- Name: Student Management Workflow
+- Description: Workflow for managing student management project tasks.
+7. Click Add or Create, whichever appears.
+
+If you cannot find Add workflow, you may not have permission to create workflows. Ask your Jira administrator for workflow editing permission. 
+Atlassian Support+1
+
+Step 2: Add statuses
+In the workflow editor, create or add these statuses:
+Status	Purpose
+To Do	Work has not started
+In Progress	Work is being done
+In Review	Work is being checked
+Done	Work is completed
+
+1. Click Add status in the workflow editor.
+2. Add In Review if it does not already exist.
+3. Use the existing To Do, In Progress, and Done statuses if available.
+4. Confirm that all four statuses appear in the workflow diagram.
+Do not create duplicate statuses if the required ones already exist.
+Step 3: Arrange the workflow
+Your workflow should follow this sequence:
+To Do
+
+In Progress
+
+In Review
+
+Done
+
+
+This is the workflow you will configure in the next section.
+B. Add transitions and conditions
+Step 4: Add transitions
+A transition controls how an issue moves from one status to another.
+
+In the workflow editor:
+1. Click Add transition.
+2. Set From status to To Do.
+3. Set To status to In Progress.
+4. Enter the transition name Start Progress.
+5. Click Add.
+Repeat these steps for the following transitions:
+From status	To status	Transition name
+To Do	In Progress	Start Progress
+In Progress	In Review	Submit for Review
+In Review	In Progress	Request Changes
+In Review	Done	Approve and Complete
+
+If the editor lets you create a transition by dragging between status boxes, you can use that method instead.
+
+Remember: transitions are directional. To move from In Review back to In Progress, you need a separate transition. 
+Atlassian Support
+
+Step 5: Add a condition
+For this practical, configure the Approve and Complete transition so that only the assigned user can move an issue to Done.
+1. In the workflow diagram, click the transition arrow named Approve and Complete.
+2. Open Rules in the details panel.
+3. Find Restrict transition or the option to add a restriction.
+4. Select the restriction that limits who can move a work item.
+5. Choose Only assignee if that option is available.
+6. Save or apply the rule.
+If your editor shows different condition names, send me a screenshot before selecting anything.
+
+Note: This condition restricts the transition. If the issue is unassigned, users may not be able to complete it until it is assigned to someone.
+C. Publish and associate the workflow with your project
+Step 6: Publish the workflow
+1. Review the workflow diagram and transitions.
+2. Click Update workflow, Publish, or the equivalent option shown in your editor.
+3. If Jira asks whether to save a copy of the existing workflow, choose to save a copy if you want a backup.
+4. Confirm the publishing action.
+The new workflow must be published before you can use it in your project. The exact button depends on the editor version. 
+Atlassian Support+1
+
+Step 7: Associate the workflow with Syllogix
+1. Open your Syllogix project.
+2. Click the ••• next to the project name, or open Space settings.
+3. Find Workflows in the settings sidebar.
+4. Click Add workflow or Edit workflow, depending on what appears.
+5. If prompted, select Add existing workflow.
+6. Select Student Management Workflow.
+7. Select the work types that should use it. For this practical, select Story, Task, and Bug.
+8. Click Next, then Finish if those buttons appear.
+9. Click Publish or Publish and associate.
+10. If Jira asks you to map existing statuses to the new workflow, map them to the corresponding statuses and confirm.
+If your settings page does not show these options, send me a screenshot of the Workflows page. Do not change the existing workflow scheme without checking which project it affects.
