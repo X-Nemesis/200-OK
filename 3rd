@@ -1,0 +1,91 @@
+Practical 3: Jira — Issue Types & Configuration
+Follow these steps in your existing company-managed project.
+A. Create and configure Issue Types
+Step 1: Open your project settings
+1. Open your Jira project.
+2. In the left sidebar, click the ••• (More actions) next to your project/space name.
+3. Click Space settings or View space settings.
+4. Find Work items or Issue types in the settings menu.
+If you see Work items instead of Issue types, use that option. Jira's newer interface may use the term work items.
+Step 2: Check the existing issue types
+Look for these four types:
+- Epic
+- Story
+- Task
+- Bug
+If they already exist and are available in your project, do not create them again. Continue to Step 4.
+Step 3: Add missing issue types
+If any of the four types are missing:
+1. Click the Settings gear (⚙️) in the top-right corner of Jira.
+2. Select Work items.
+3. Open Work types.
+4. Click Add work type.
+5. Enter the missing type's name, such as Bug.
+6. Choose Standard work type for Story, Task, and Bug.
+7. Create Epic using the existing Epic work type if it is available. Do not create a duplicate Epic.
+8. Click Add.
+9. Repeat only for the types that are missing.
+You need Jira administrator permission to create global work types. 
+Atlassian Support
+
+Step 4: Make sure all four types are available in your project
+1. Click ⚙️ Settings.
+2. Select Work items.
+3. Open Work type schemes.
+4. Find the scheme associated with your project.
+5. Click Edit.
+6. Add the missing types from Available Work Types to the scheme.
+7. Make sure Epic, Story, Task, and Bug are included.
+8. Click Save.
+If you cannot edit the scheme, ask your Jira administrator to do it. 
+Atlassian Support
+
+B. Create Components and Versions
+Step 1: Open Components
+1. Open your project.
+2. Click ••• (More actions) next to the project name in the sidebar.
+3. Select Space settings or View space settings.
+4. Click Components.
+If Components is not visible in the settings menu, you may need to add it to the project navigation or get administrator access. 
+Atlassian Support
+
+Step 2: Create components
+1. Click Create component.
+2. Enter these example values:
+Field	Value
+Name	Frontend
+Description	User interface development
+
+3. Leave Component lead and Default assignee unchanged if you do not need to set them.
+4. Click Save.
+Repeat the same steps to create two more components:
+Name	Description
+Backend	Server-side development
+Database	Database-related work
+
+You should now see three components: Frontend, Backend, and Database.
+Step 3: Open Versions
+1. Stay in your project.
+2. Click ••• (More actions) next to the project name.
+3. Open Space settings.
+4. Select Versions.
+In some Jira layouts, this may be shown as Releases instead. If you cannot find either option, open Features in Space settings and enable Releases, if available. 
+Atlassian Support+1
+
+Step 4: Create a version
+1. Click Create version.
+2. Enter the following example values:
+Field	Value
+Name	Version 1.0
+Start date	Leave blank if optional
+Release date	Leave blank if optional
+Description	First project release
+
+3. Click Save.
+Step 5: Create a second version
+Repeat Step 4 with these values:
+Field	Value
+Name	Version 2.0
+Description	Second project release
+
+Click Save.
